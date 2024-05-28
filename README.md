@@ -33,6 +33,6 @@ Untuk melihat output pada tabel customer yang sudah ditransformasi kita dapat
 menggunakan ``` SELECT*FROM (nama server).customers ```. (Karena pada data customer sudah menggunakan huruf kecil dari awal maka tidak terlihat perubahannya.) 
 
 ## Melakukan Tranform dan Aggregate The Orders Data by Customer
-Selanjutnya untuk melihat output pada tabel customer yang sudah ditransformasi dan di aggregate kita dapat menggunakan syntax ``` SELECT*FROM (nama server).customers_metrics ```
+Selanjutnya untuk melihat output pada tabel customer yang sudah ditransformasi dan di aggregate kita dapat menggunakan ``` SELECT*FROM (nama server).customers_metrics ```
 
 Output yang dihasilkan pada costumer_id yang terlihat hanya 3 data, sedangkan data yang sebenarnya pada costumer_id ada 11 data. Hal ini disebabkan oleh data costumer_id pada orders.json hanya ada costumer_id 1, 2, dan 3 dengan total masing-masing melakukan 4 kali order
