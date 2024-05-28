@@ -1,4 +1,4 @@
-## Ekstraksi dan Transformasi data (CSV, JSON, dan database MySQL) untuk saling dihubungkan antar Sintaks Kode (SQL dan Python)
+# Ekstraksi dan Transformasi data (CSV, JSON, dan database MySQL) untuk saling dihubungkan antar Sintaks Kode (SQL dan Python)
 Pada kali ini, dilakukan proses mengkoneksi database di MySQL dengan Google Collab yang menggunakan sintaks Python. Selain itu, kami melakukan transformasi dan proses aggregate data produk terkait pemesanan, pelanggan, dan pemesanan setiap pelanggan menggunakan phpMyAdmin
 
 Tahap awal dari menjalankan semua syntax ini adalah mengimport library, pada kali ini ditambahhkan syntax baru pada baris pertama dan terakhir yang mana syntax pada baris pertama berfungsi agar sql terkoneksi dengan syntax python yang telah dibuat dan syntax pada baris terakhir berfungsi agar data termuat pada syntax.
@@ -17,4 +17,4 @@ Masukan code syntax untuk membuat tabel customers yang sudah diberikan sebelumny
 
 Lalu, setelah database sudah terkoneksi dengan data customers, kita dapat menjalankan syntax extract data from MySQL database pada google collab. Sehingga apabila perintah tersebut berhasil dijalankan akan menghasilkan output yang dapat dilihat pada “Clever Cloud”
 
-# Melakukan Tranform The Product Data
+## Melakukan Tranform The Product Data
