@@ -13,8 +13,12 @@ Masukkan host name, user name, dan password ke dalam perintah yang ada pada goog
 
 Untuk memasukkan code syntax sql kita bisa lakukan di PHPMyAdmin. Hal ini sama seperti memasukkan code syntax di sql workbench hanya saja ini dapat dilakukan dengan online di cloud.
 
-Masukan code syntax untuk membuat tabel customers yang sudah diberikan sebelumnya ke PHPMyAdmin lalu kita jalankan. Jika sudah menghasilkan output tabel yang sesuai, maka database sudah dapat digunakan. Untuk melihat output tabel sudah sesuai atau belum, dapat digunakan syntax “SELECT*FROM(nama server)customers”.
+Masukan code syntax untuk membuat tabel customers yang sudah diberikan sebelumnya ke PHPMyAdmin lalu kita jalankan. Jika sudah menghasilkan output tabel yang sesuai, maka database sudah dapat digunakan. Untuk melihat output tabel sudah sesuai atau belum, dapat digunakan syntax 
+
+``` “SELECT*FROM(nama server)customers”. ```
 
 Lalu, setelah database sudah terkoneksi dengan data customers, kita dapat menjalankan syntax extract data from MySQL database pada google collab. Sehingga apabila perintah tersebut berhasil dijalankan akan menghasilkan output yang dapat dilihat pada “Clever Cloud”
 
 ## Melakukan Tranform The Product Data
+Untuk melihat output pada tabel product yang telah ditransformasi kita dapat menggunakan perintah 
+``` “SELECT*FROM (nama database).product” ```
